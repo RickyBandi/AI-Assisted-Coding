@@ -21,19 +21,21 @@ This repository contains a structured collection of lab assignments, questions, 
 
     AI-Assisted-Coding/
     ├── Docx/
-    │   ├── Assignment - 1.5.pdf
+    │   ├── Assignment - 1.5.docx
     │   ├── Assignment - 2.docx
     │   ├── Assignment - 3.docx
     │   ├── Assignment - 3.pages
-    │   ├── Assignment - 4.1.pdf
-    │   └── Assignment - 5.1.pdf
+    │   ├── Assignment - 4.1.docx
+        ├── Assignment - 5.1.docx
+    │   └── Assignment - 6.5.docx
     │
     ├── PDF/
     │   ├── Assignment - 1.5.pdf
     │   ├── Assignment - 2.1.pdf
     │   ├── Assignment - 3.1.pdf
     │   ├── Assignment - 4.1.pdf
-    │   └── Assignment - 5.1.pdf
+    │   ├── Assignment - 5.1.pdf
+    │   └── Assignment - 6.5.pdf
     │
     ├── Question/
     │   ├── Lab_Assignment_1.5.docx
@@ -41,7 +43,8 @@ This repository contains a structured collection of lab assignments, questions, 
     │   ├── Lab_Assignment_3.1-1.docx
     │   ├── Lab_Assignment_4.1.docx
     │   ├── Lab_Assignment_4.5.docx
-    │   └── Lab_Assignment_5.1.docx
+        ├── Lab_Assignment_5.1.docx
+    │   └── Lab_Assignment_6.5.docx
     │
     └── README.md
 
