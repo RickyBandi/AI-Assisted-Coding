@@ -44,7 +44,7 @@ This repository contains a structured collection of lab assignments, questions, 
     ├── Question/
     │   ├── Lab_Assignment_1.5.docx
     │   ├── Lab_Assignment_2.1.docx
-    │   ├── Lab_Assignment_3.1-1.docx
+    │   ├── Lab_Assignment_3.1.docx
     │   ├── Lab_Assignment_4.1.docx
     │   ├── Lab_Assignment_4.5.docx
     │   ├── Lab_Assignment_5.1.docx
