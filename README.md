@@ -1,3 +1,4 @@
+# 2303A52330
 # AI-Assisted-Coding
 
 This repository contains a structured collection of lab assignments, questions, and submissions prepared with the support of AI-assisted coding tools. It is organized to clearly separate editable documents, final PDF submissions, and original lab question files for easy navigation, review, and evaluation.
