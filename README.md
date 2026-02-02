@@ -1,8 +1,5 @@
 # 2303A52330
-<<<<<<< HEAD
 
-=======
->>>>>>> 53efc95597195ef0240673830df103d7c2e77b1c
 # AI-Assisted-Coding
 
 This repository contains a structured collection of lab assignments, questions, and submissions prepared with the support of AI-assisted coding tools. It is organized to clearly separate editable documents, final PDF submissions, and original lab question files for easy navigation, review, and evaluation.
@@ -11,7 +8,6 @@ This repository contains a structured collection of lab assignments, questions, 
 
 ## Assignments Index
 
-<<<<<<< HEAD
 | Week | Assignment     | PDF Link                                            |
 | ---: | -------------- | --------------------------------------------------- |
 |    1 | Assignment 1.5 | [View PDF](PDF/2303A52330_Assignment%20-%201.5.pdf) |
@@ -23,17 +19,6 @@ This repository contains a structured collection of lab assignments, questions, 
 |    7 | Assignment 6.5 | [View PDF](PDF/2303A52330_Assignment%20-%206.5.pdf) |
 |    8 | Assignment 7.1 | [View PDF](PDF/2303A52330_Assignment%20-%207.1.pdf) |
 |    9 | Assignment 8.5 | [View PDF](PDF/2303A52330_Assignment%20-%208.5.pdf) |
-=======
-| Week | Assignment | PDF Link |
-|-----:|-----------|----------|
-| 1 | Assignment 1.5 | [View PDF](PDF/2303A52330_Assignment%20-%201.5.pdf) |
-| 2 | Assignment 2.1 | [View PDF](PDF/2303A52330_Assignment%20-%202.1.pdf) |
-| 3 | Assignment 3.1 | [View PDF](PDF/2303A52330_Assignment%20-%203.1.pdf) |
-| 4 | Assignment 4.1 | [View PDF](PDF/2303A52330_Assignment%20-%204.1.pdf) |
-| 5 | Assignment 4.5 | [View PDF](PDF/2303A52330_Assignment%20-%204.5.pdf) |
-| 6 | Assignment 5.1 | [View PDF](PDF/2303A52330_Assignment%20-%205.1.pdf) |
-| 7 | Assignment 6.5 | [View PDF](PDF/2303A52330_Assignment%20-%206.5.pdf) |
->>>>>>> 53efc95597195ef0240673830df103d7c2e77b1c
 
 ---
 
