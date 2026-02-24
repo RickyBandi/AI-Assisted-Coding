@@ -23,6 +23,8 @@ This repository contains a structured collection of lab assignments, questions, 
 |   11 | Assignment 10.5 | [View PDF](PDF/2303A52330_Assignment%20-%2010.5.pdf) |
 |   12 | Assignment 11.1 | [View PDF](PDF/2303A52330_Assignment%20-%2011.1.pdf) |
 |   13 | Assignment 11.5 | [View PDF](PDF/2303A52330_Assignment%20-%2011.5.pdf) |
+|   14 | Assignment 12.1 | [View PDF](PDF/2303A52330_Assignment%20-%2012.1.pdf) |
+|   15 | Assignment 12.5 | [View PDF](PDF/2303A52330_Assignment%20-%2012.5.pdf) |
 
 ---
 
@@ -44,6 +46,8 @@ This repository contains a structured collection of lab assignments, questions, 
     │   ├── Assignment - 10.5.docx
     │   ├── Assignment - 11.1.docx
     │   ├── Assignment - 11.5.docx
+    │   ├── Assignment - 12.1.docx
+    │   ├── Assignment - 12.5.docx
     │
     ├── PDF/
     │   ├── Assignment - 1.5.pdf
@@ -59,6 +63,8 @@ This repository contains a structured collection of lab assignments, questions, 
     │   ├── Assignment - 10.5.pdf
     │   ├── Assignment - 11.1.pdf
     │   ├── Assignment - 11.5.pdf
+    │   ├── Assignment - 12.1.pdf
+    │   ├── Assignment - 12.5.pdf
     │
     ├── Question/
     │   ├── Lab_Assignment_1.5.docx
@@ -74,6 +80,8 @@ This repository contains a structured collection of lab assignments, questions, 
     │   ├── Lab_Assignment_10.5.docx
     │   ├── Lab_Assignment_11.1.docx
     │   ├── Lab Assignment_11.5.docx
+    │   ├── Lab_Assignment_12.1.docx
+    │   ├── Lab_Assignment_12.5.docx
     │
     └── README.md
 
