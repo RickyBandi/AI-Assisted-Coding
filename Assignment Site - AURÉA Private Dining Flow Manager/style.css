@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  background: #0E0E11;
+  font-family: 'Inter', sans-serif;
+  color: #F5F5F7;
+}
+
+header {
+  padding: 30px 50px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+header p {
+  opacity: 0.6;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 300px 1fr 300px;
+  gap: 30px;
+  padding: 40px;
+}
+
+.panel {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid rgba(255,255,255,0.1);
+  height: 75vh;
+  overflow-y: auto;
+}
+
+.controls input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255,255,255,0.08);
+  color: white;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #007AFF;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,122,255,0.3);
+}
+
+.node {
+  display: inline-block;
+  padding: 15px 20px;
+  margin: 10px;
+  background: #1C1C1E;
+  border-radius: 15px;
+  position: relative;
+  animation: fadeIn 0.3s ease;
+}
+
+.node::after {
+  content: "→";
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #007AFF;
+  font-size: 20px;
+}
+
+.node:last-child::after {
+  content: "NULL";
+  right: -45px;
+  color: #888;
+}
+
+@keyframes fadeIn {
+  from {opacity:0; transform:translateY(10px);}
+  to {opacity:1; transform:translateY(0);}
+}
+
+#log {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+@media(max-width: 1000px){
+  .main-container {
+    grid-template-columns: 1fr;
+  }
+}
