@@ -1,0 +1,126 @@
+/* ════════════════════════════════════════════════════════════════
+   JOBSPACE — DESIGN TOKENS v3
+   8-pt grid · Semantic · Elevation system · Dark + Light
+════════════════════════════════════════════════════════════════ */
+
+:root,
+[data-theme="dark"] {
+  /* ── Backgrounds — 5-step elevation ─────────────────────────── */
+  --bg:   #0c0c0f;
+  --bg-2: #131317;
+  --bg-3: #1a1a20;
+  --bg-4: #212128;
+  --bg-5: #2a2a33;
+
+  /* ── Borders ─────────────────────────────────────────────────── */
+  --border:       rgba(255,255,255,0.06);
+  --border-hover: rgba(255,255,255,0.12);
+  --border-focus: rgba(124,111,255,0.50);
+
+  /* ── Text ────────────────────────────────────────────────────── */
+  --text:   #ececf1;
+  --text-2: #8f8fa8;
+  --text-3: #52526a;
+  --text-4: #35354a;
+
+  /* ── Accent / Brand ──────────────────────────────────────────── */
+  --accent:       #7c6fff;
+  --accent-hover: #6b5fef;
+  --accent-light: #a89fff;
+  --accent-dim:   rgba(124,111,255,0.10);
+  --accent-glow:  rgba(124,111,255,0.18);
+
+  /* ── Semantic status colors ──────────────────────────────────── */
+  --blue:   #5ba4e5;  --blue-bg:   rgba(91,164,229,0.10);
+  --purple: #a78bfa;  --purple-bg: rgba(167,139,250,0.10);
+  --yellow: #f5c542;  --yellow-bg: rgba(245,197,66,0.10);
+  --green:  #3ecf8e;  --green-bg:  rgba(62,207,142,0.10);
+  --red:    #f16c75;  --red-bg:    rgba(241,108,117,0.10);
+  --orange: #fb8c40;  --orange-bg: rgba(251,140,64,0.09);
+  --pink:   #e879a0;  --pink-bg:   rgba(232,121,160,0.09);
+
+  /* ── Shadow / Elevation system ───────────────────────────────── */
+  --shadow-xs: 0 1px 2px rgba(0,0,0,0.40);
+  --shadow-sm: 0 2px 6px rgba(0,0,0,0.40), 0 0 0 1px rgba(255,255,255,0.03);
+  --shadow:    0 4px 16px rgba(0,0,0,0.45), 0 0 0 1px rgba(255,255,255,0.04);
+  --shadow-lg: 0 8px 28px rgba(0,0,0,0.50), 0 0 0 1px rgba(255,255,255,0.05);
+  --shadow-xl: 0 16px 48px rgba(0,0,0,0.58), 0 0 0 1px rgba(255,255,255,0.06);
+
+  /* ── Spreadsheet-specific ────────────────────────────────────── */
+  --sheet-row-hover:   rgba(255,255,255,0.025);
+  --sheet-cell-focus:  rgba(124,111,255,0.09);
+  --sheet-header-bg:   #171720;
+
+  /* ── Geometry ────────────────────────────────────────────────── */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius:    10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+
+  /* ── Motion ──────────────────────────────────────────────────── */
+  --ease:          cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in:       cubic-bezier(0.4, 0, 1, 1);
+  --ease-out:      cubic-bezier(0, 0, 0.2, 1);
+  --transition:    all 0.14s var(--ease-out);
+  --transition-md: all 0.22s var(--ease);
+
+  /* ── Layout ──────────────────────────────────────────────────── */
+  --sidebar-w: 224px;
+
+  /* ── Typography ──────────────────────────────────────────────── */
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* ── 8-pt spacing scale ──────────────────────────────────────── */
+  --sp-1:  4px;
+  --sp-2:  8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-8: 32px;
+  --sp-10:40px;
+}
+
+/* ── Light theme overrides ───────────────────────────────────── */
+[data-theme="light"] {
+  --bg:   #f7f7f9;
+  --bg-2: #ffffff;
+  --bg-3: #f0f0f4;
+  --bg-4: #e8e8ee;
+  --bg-5: #dfdfe8;
+
+  --border:       rgba(0,0,0,0.07);
+  --border-hover: rgba(0,0,0,0.13);
+  --border-focus: rgba(91,79,232,0.45);
+
+  --text:   #0f0f14;
+  --text-2: #50506a;
+  --text-3: #9090aa;
+  --text-4: #bcbcd0;
+
+  --accent:       #5b4fe8;
+  --accent-hover: #4a3fd6;
+  --accent-light: #7c6fff;
+  --accent-dim:   rgba(91,79,232,0.08);
+  --accent-glow:  rgba(91,79,232,0.14);
+
+  --blue:   #2563eb;  --blue-bg:   rgba(37,99,235,0.08);
+  --purple: #7c3aed;  --purple-bg: rgba(124,58,237,0.08);
+  --yellow: #b45309;  --yellow-bg: rgba(180,83,9,0.08);
+  --green:  #047857;  --green-bg:  rgba(4,120,87,0.08);
+  --red:    #b91c1c;  --red-bg:    rgba(185,28,28,0.08);
+  --orange: #c2410c;  --orange-bg: rgba(194,65,12,0.08);
+  --pink:   #be185d;  --pink-bg:   rgba(190,24,93,0.08);
+
+  --shadow-xs: 0 1px 2px rgba(0,0,0,0.06);
+  --shadow-sm: 0 2px 6px rgba(0,0,0,0.07),  0 0 0 1px rgba(0,0,0,0.03);
+  --shadow:    0 4px 16px rgba(0,0,0,0.08),  0 0 0 1px rgba(0,0,0,0.04);
+  --shadow-lg: 0 8px 28px rgba(0,0,0,0.10),  0 0 0 1px rgba(0,0,0,0.05);
+  --shadow-xl: 0 16px 48px rgba(0,0,0,0.13), 0 0 0 1px rgba(0,0,0,0.06);
+
+  --sheet-row-hover:   rgba(0,0,0,0.02);
+  --sheet-cell-focus:  rgba(91,79,232,0.06);
+  --sheet-header-bg:   #f2f2f6;
+}

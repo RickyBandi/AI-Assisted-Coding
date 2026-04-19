@@ -25,6 +25,12 @@ This repository contains a structured collection of lab assignments, questions, 
 |   13 | Assignment 11.5 | [View PDF](PDF/2303A52330_Assignment%20-%2011.5.pdf) |
 |   14 | Assignment 12.1 | [View PDF](PDF/2303A52330_Assignment%20-%2012.1.pdf) |
 |   15 | Assignment 12.5 | [View PDF](PDF/2303A52330_Assignment%20-%2012.5.pdf) |
+|   16 | Assignment 13 | [View PDF](PDF/2303A52330_Assignment%20-%2013.pdf) |
+|   17 | Assignment 14.5 | [View PDF](PDF/2303A52330_Assignment%20-%2014.5.pdf) |
+|   18 | Assignment 15 | [View PDF](PDF/2303A52330_Assignment%20-%2015.pdf) |
+|   19 | Assignment 16 | [View PDF](PDF/2303A52330_Assignment%20-%2016.pdf) |
+|   20 | Assignment 17.1 | [View PDF](PDF/2303A52330_Assignment%20-%2017.1.pdf) |
+|   21 | Assignment 19 | [View PDF](PDF/2303A52330_Assignment%20-%2019.pdf) |
 
 ---
 
@@ -48,6 +54,12 @@ This repository contains a structured collection of lab assignments, questions, 
     │   ├── Assignment - 11.5.docx
     │   ├── Assignment - 12.1.docx
     │   ├── Assignment - 12.5.docx
+    │   ├── Assignment - 13.docx
+    │   ├── Assignment - 14.5.docx
+    │   ├── Assignment - 15.docx
+    │   ├── Assignment - 16.docx
+    │   ├── Assignment - 17.1.docx
+    │   └── Assignment - 19.docx
     │
     ├── PDF/
     │   ├── Assignment - 1.5.pdf
@@ -65,6 +77,12 @@ This repository contains a structured collection of lab assignments, questions, 
     │   ├── Assignment - 11.5.pdf
     │   ├── Assignment - 12.1.pdf
     │   ├── Assignment - 12.5.pdf
+    │   ├── Assignment - 13.pdf
+    │   ├── Assignment - 14.5.pdf
+    │   ├── Assignment - 15.pdf
+    │   ├── Assignment - 16.pdf
+    │   ├── Assignment - 17.1.pdf
+    │   └── Assignment - 19.pdf
     │
     ├── Question/
     │   ├── Lab_Assignment_1.5.docx
@@ -81,7 +99,7 @@ This repository contains a structured collection of lab assignments, questions, 
     │   ├── Lab_Assignment_11.1.docx
     │   ├── Lab Assignment_11.5.docx
     │   ├── Lab_Assignment_12.1.docx
-    │   ├── Lab_Assignment_12.5.docx
+    │   └── Lab_Assignment_12.5.docx
     │
     └── README.md
 

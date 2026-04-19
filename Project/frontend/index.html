@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JobSpace — Your Job Search OS</title>
+    <link rel="icon" type="image/png" href="/assets/favicon.png" />
+    <meta name="description" content="Track every job application. Land your dream job. Professional workspace for serious job seekers." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <script>
+      /* Anti-flash theme — runs synchronously before first paint */
+      (function() {
+        var t = localStorage.getItem('theme') || 'dark';
+        if (!['dark','light'].includes(t)) t = 'dark';
+        document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
+    <style>
+      /* Eliminate FOUC completely */
+      html { visibility: hidden; }
+      html.ready { visibility: visible; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>document.documentElement.classList.add('ready');</script>
+  </body>
+</html>

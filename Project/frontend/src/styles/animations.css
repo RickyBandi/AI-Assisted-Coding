@@ -1,0 +1,116 @@
+/* ════════════════════════════════════════════════════════════════
+   JOBSPACE ANIMATION SYSTEM v3
+   Pure CSS — no duplicates, conflict-free
+════════════════════════════════════════════════════════════════ */
+
+/* ── Scroll Reveal — base (invisible) ───────────────────────── */
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.58s var(--ease), transform 0.58s var(--ease);
+  will-change: opacity, transform;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Directional variants */
+.reveal-left {
+  opacity: 0; transform: translateX(-26px);
+  transition: opacity 0.58s var(--ease), transform 0.58s var(--ease);
+}
+.reveal-left.visible  { opacity: 1; transform: translateX(0); }
+
+.reveal-right {
+  opacity: 0; transform: translateX(26px);
+  transition: opacity 0.58s var(--ease), transform 0.58s var(--ease);
+}
+.reveal-right.visible { opacity: 1; transform: translateX(0); }
+
+.reveal-scale {
+  opacity: 0; transform: scale(0.95) translateY(16px);
+  transition: opacity 0.62s var(--ease), transform 0.62s var(--ease);
+}
+.reveal-scale.visible { opacity: 1; transform: scale(1) translateY(0); }
+
+/* Stagger delay helpers */
+.reveal-d1 { transition-delay: 0.07s; }
+.reveal-d2 { transition-delay: 0.14s; }
+.reveal-d3 { transition-delay: 0.21s; }
+.reveal-d4 { transition-delay: 0.28s; }
+.reveal-d5 { transition-delay: 0.35s; }
+.reveal-d6 { transition-delay: 0.42s; }
+
+/* ── Stagger grid children ───────────────────────────────────── */
+.stagger-children > *:nth-child(1) { transition-delay: 0.00s; }
+.stagger-children > *:nth-child(2) { transition-delay: 0.07s; }
+.stagger-children > *:nth-child(3) { transition-delay: 0.14s; }
+.stagger-children > *:nth-child(4) { transition-delay: 0.21s; }
+.stagger-children > *:nth-child(5) { transition-delay: 0.28s; }
+.stagger-children > *:nth-child(6) { transition-delay: 0.35s; }
+.stagger-children > *:nth-child(7) { transition-delay: 0.42s; }
+.stagger-children > *:nth-child(8) { transition-delay: 0.49s; }
+
+/* ── Hover lift (landing cards) ──────────────────────────────── */
+.hover-lift {
+  transition: transform 0.22s var(--ease), box-shadow 0.22s ease, border-color 0.22s ease;
+  cursor: default;
+}
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+/* ── Button press (landing CTAs) ─────────────────────────────── */
+.btn-press {
+  transition: all 0.18s var(--ease), transform 0.1s ease;
+}
+.btn-press:hover  { transform: translateY(-1px); }
+.btn-press:active { transform: scale(0.97) translateY(0); }
+
+/* ── Gradient text animation ─────────────────────────────────── */
+@keyframes gradientShift {
+  0%   { background-position: 0%   50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0%   50%; }
+}
+.gradient-text-animate {
+  background-size: 220% auto;
+  animation: gradientShift 5s ease infinite;
+}
+
+/* ── Glow pulse ──────────────────────────────────────────────── */
+@keyframes glowPulse {
+  0%,100% { box-shadow: 0 0 16px rgba(124,111,255,0.15); }
+  50%      { box-shadow: 0 0 36px rgba(124,111,255,0.32); }
+}
+.glow-pulse { animation: glowPulse 3.2s ease-in-out infinite; }
+
+/* ── Float (subtle vertical bob) ────────────────────────────── */
+@keyframes floatY {
+  0%,100% { transform: translateY(0);    }
+  50%      { transform: translateY(-7px); }
+}
+.float { animation: floatY 4.2s ease-in-out infinite; }
+
+/* ── Bar chart grow ──────────────────────────────────────────── */
+@keyframes barGrow {
+  from { transform: scaleY(0); opacity: 0; }
+  to   { transform: scaleY(1); opacity: 1; }
+}
+.bar-grow { transform-origin: bottom; animation: barGrow 0.55s var(--ease) both; }
+
+/* ── Line draw ───────────────────────────────────────────────── */
+@keyframes lineGrow {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+.line-grow { transform-origin: left; animation: lineGrow 0.55s var(--ease) forwards; }
+
+/* ── Route transition wrapper ────────────────────────────────── */
+@keyframes routeEnter {
+  from { opacity: 0; transform: translateY(6px);  }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+.route-enter { animation: routeEnter 0.3s var(--ease) both; }
